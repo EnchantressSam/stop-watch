@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600&family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+base {
+  color: #d83f87;
+  color: rgb(42, 27, 61);
+  color: rgb(68, 49, 141);
+  color: #8265a7;
+  color: #a4b3b6;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 18px;
+  background: #8265a7;
+ }
+
+.container {
+  
+}
+.stopwatch{
+  width: 90%;
+  max-width: 600px;
+  background-image: linear-gradient(rgba(61,49,141,0.9), rgba(42,27,61,0.9)), url(/images/bg.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: #d83f87;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(42,27,61,0.9);
+}
+.stopwatch h1{
+  margin-top: 60px;
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.buttons img{
+  width: 40px;
+  margin: 0 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.buttons img.btn-start{
+  width: 70px;
+}
+.buttons img.btn-reset{
+  width: 38px;
+}
